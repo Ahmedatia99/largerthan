@@ -1,11 +1,10 @@
 import "@/assets/style/main.css";
 import "@/assets/style/imports/funky.css";
-import { Button } from "./components/atoms/Button.tsx";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <main className="bg-white flex flex-col justify-center">
-      
+      <Navbar />
     </main>
   );
 }

@@ -7,9 +7,11 @@ module.exports = {
         morning: "#F2C94C",
         sugar: "#FCEDC6",
         darkly: "#1D2130",
+        near: "#525560",
       },
       fontFamily: {
-        spaceMono: ["space Mono"],
+        'roboto': ["Roboto"],
+        'courgette':["Courgette"]
       },
       screens: {
         mobile: "320px",

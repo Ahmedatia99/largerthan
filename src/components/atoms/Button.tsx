@@ -18,11 +18,11 @@ export const Button = ({ action, variant = "primary" }: ButtonProps) => {
   return (
     <button
       className={classNames(
-        "flex items-center justify-center mobile:w-full border-2 border-solid border-action transition-all rounded-md text-darkly py-3 px-5",
+        "flex items-center justify-center mobile:w-full  transition-all rounded-md text-darkly py-3 px-8",
         variants
       )}
     >
-      <span className={classNames("text-[16px] px-2 ")}>{action}</span>
+      <span className={classNames("text-md px-2 font-bold")}>{action}</span>
     </button>
   );
 };
