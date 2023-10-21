@@ -1,0 +1,62 @@
+[
+  {
+    "num": 1,
+    "imageUrl": "./images/creators/Fox Placeholder.svg",
+    "name": "Mr Fox"
+  },
+  {
+    "imageUrl": "./images/creators/Avatar Placeholder.svg",
+    "name": "Keepitreal",
+    "num": 2
+  },
+  {
+    "imageUrl": "./images/creators/Be Avatar Placeholder.svg",
+    "name": "DigiLab",
+    "num": 3
+  },
+  {
+    "imageUrl": "./images/creators/Photo-222.png",
+    "name": "GravityOne",
+    "num": 4
+  },
+  {
+    "imageUrl": "./images/creators/5.svg",
+    "name": "Juanie",
+    "num": 5
+  },
+  {
+    "imageUrl": "./images/creators/6.svg",
+    "name": "BlueWhale",
+    "num": 6
+  },
+  {
+    "imageUrl": "./images/creators/7.svg",
+    "name": "Shroomie",
+    "num": 7
+  },
+  {
+    "imageUrl": "./images/creators/8.svg",
+    "name": "robotica",
+    "num": 8
+  },
+  {
+    "imageUrl": "./images/creators/9.svg",
+    "name": "RustyRobot",
+    "num": 9
+  },
+  {
+    "imageUrl": "./images/creators/11.svg",
+    "name": "animaknum",
+    "num": 10
+  },
+  {
+    "imageUrl": "./images/creators/12.svg",
+    "name": "Dotgu",
+    "num": 11
+  },
+  {
+    "imageUrl": "./images/creators/13.svg",
+    "name": "Ghiblier",
+    "num": 12
+  }
+]

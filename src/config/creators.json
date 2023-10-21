@@ -1,0 +1,58 @@
+[
+    {
+        "albumId": 1,
+        "id": 1,
+        "title": "Art",
+        "url": "./images/categories/art.png",
+        "thumbnailUrl": "./images/icons/PaintBrush.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 2,
+        "title": "Collectibles",
+        "url": "./images/categories/collectibles.png",
+        "thumbnailUrl": "./images/icons/Swatches.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 3,
+        "title": "Music",
+        "url": "./images/categories/music.png",
+        "thumbnailUrl": "./images/icons/MusicNotes.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 4,
+        "title": "Photography",
+        "url": "./images/categories/photography.png",
+        "thumbnailUrl": "./images/icons/Camera.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 5,
+        "title": "Video",
+        "url": "./images/categories/video.png",
+        "thumbnailUrl": "./images/icons/VideoCamera.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 6,
+        "title": "Utility",
+        "url": "./images/categories/utility.png",
+        "thumbnailUrl": "./images/icons/MagicWand.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 7,
+        "title": "Sport",
+        "url": "./images/categories/sports.png",
+        "thumbnailUrl": "./images/icons/Basketball.svg"
+    },
+    {
+        "albumId": 1,
+        "id": 8,
+        "title": "Virtual Worlds",
+        "url": "./images/categories/worlds.png",
+        "thumbnailUrl": "./images/icons/Planet.svg"
+    }
+]
