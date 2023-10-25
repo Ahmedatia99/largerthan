@@ -1,10 +1,10 @@
 import "@/assets/style/main.css";
 import "@/assets/style/imports/funky.css";
-import Navbar from "./components/Navbar";
+import { Home } from "./pages/Home.tsx";
 function App() {
   return (
     <main className="bg-white flex flex-col justify-center">
-      <Navbar />
+      <Home />
     </main>
   );
 }

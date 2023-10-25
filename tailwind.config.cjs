@@ -10,8 +10,8 @@ module.exports = {
         near: "#525560",
       },
       fontFamily: {
-        'roboto': ["Roboto"],
-        'courgette':["Courgette"]
+        roboto: ["Roboto"],
+        courgette: ["Courgette"],
       },
       screens: {
         mobile: "320px",
@@ -23,6 +23,9 @@ module.exports = {
 
         desktop: "1279px",
         // => @media (min-width: 1280px) { ... }
+      },
+      backgroundImage: {
+        "hero-pattern": "url('/images/BG Image.svg')",
       },
     },
   },

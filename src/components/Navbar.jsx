@@ -4,7 +4,7 @@ import { Button } from "./atoms/Button.tsx";
 export default function Navbar() {
   return (
     <main>
-      <section className="container flex justify-between m-auto p-5">
+      <section className="container flex justify-between m-auto py-5">
         <div className="flex justify-center items-center">
           <h2 className="text-xl font-bold">
             largerthan <span className="font-courgette">i</span>

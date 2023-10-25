@@ -18,7 +18,7 @@ export const Button = ({ action, variant = "primary" }: ButtonProps) => {
   return (
     <button
       className={classNames(
-        "flex items-center justify-center mobile:w-full  transition-all rounded-md text-darkly py-3 px-8",
+        "flex items-center justify-center transition-all rounded-md text-darkly py-3 px-8",
         variants
       )}
     >
