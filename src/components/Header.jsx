@@ -3,18 +3,18 @@ import { Button } from "../components/atoms/Button.tsx";
 
 export default function Header() {
   return (
-    <main className="bg-hero-pattern w-full h-full text-white">
-      <div className="container m-auto py-20 ">
+    <main className="bg-hero-pattern bg-cover w-full h-full text-white">
+      <div className="container m-auto py-28 ">
         <div>
           <div>
-            <h2 className="text-6xl font-bold  max-w-md">
+            <h2 className="text-6xl font-extrabold  max-w-md">
               Inclusive care for children with special needs
             </h2>
           </div>
           <div className="flex items-center  max-w-sm mt-12">
             <Button action="What we do" variant="second" />
-            <div className="flex items-center ml-5">
-              <a>
+            <div>
+              <a className="flex items-center ml-5">
                 <svg
                   id="changeColor"
                   fill="#DC7633"
@@ -143,14 +143,21 @@ export default function Header() {
                     </svg>{" "}
                   </g>
                 </svg>
+                <span className="text-base font-semibold pl-2 text-white tracking-normal">
+                  {" "}
+                  play video
+                </span>
               </a>
-              <span className="text-base font-semibold pl-2"> play video</span>
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <h2 className=" w-1/4">230 children under our care</h2>
+            <h2 className=" w-1/4 font-semibold">
+              230 children under our care
+            </h2>
             <hr className=" w-full mx-3" />
-            <h2 className="w-1/4 text-center">58 donations collected</h2>
+            <h2 className="w-1/4 text-center font-semibold">
+              58 donations collected
+            </h2>
           </div>
         </div>
       </div>

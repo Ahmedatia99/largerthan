@@ -13,6 +13,7 @@ export const Button = ({ action, variant = "primary" }: ButtonProps) => {
     primary: "bg-morning",
     second: "bg-white",
     nav: "bg-darkly !text-white",
+    lighting:"bg-morning text-black"
   }[variant];
 
   return (
