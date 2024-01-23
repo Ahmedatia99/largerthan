@@ -2,17 +2,17 @@
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/roboto/Roboto-Black.ttf');
-  font-weight: 100 300;
+  font-weight: 100 800;
 }
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/roboto/Roboto-Bold.ttf');
-  font-weight: 100 300;
+  font-weight: 100 600;
 }
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/roboto/Roboto-Light.ttf');
-  font-weight: 100 300;
+  font-weight: 100 400;
 }
 
 @font-face {

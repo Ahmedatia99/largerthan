@@ -8,6 +8,7 @@ module.exports = {
         sugar: "#FCEDC6",
         darkly: "#1D2130",
         near: "#525560",
+        opacit:"#E5E5E5",
       },
       fontFamily: {
         roboto: ["Roboto"],
@@ -25,7 +26,10 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/BG Image.svg')",
+        "bg":"url('./images/BG Image.svg')",
+        "projects-1": "url('./images/project done-1.svg')",
+        "projects-2": "url('./images/project done-2.svg')",
+        "projects-3": "url('./images/project done-3.svg')"
       },
     },
   },

@@ -6,7 +6,7 @@ export default function Navbar() {
     <main>
       <section className="container flex justify-between m-auto py-5">
         <div className="flex justify-center items-center">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-2xl font-[800] font-roboto">
             largerthan <span className="font-courgette">i</span>
           </h2>
         </div>

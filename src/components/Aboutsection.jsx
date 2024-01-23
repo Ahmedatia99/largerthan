@@ -34,7 +34,7 @@ export default function Aboutsection() {
             </div>
           </div>
           {/* right side video */}
-          <div className="border-solid border-2 border-morning p-3 rounded-2xl">
+          <div className="border-solid border-2 border-opacit p-3 rounded-2xl">
             <iframe
               className="rounded-xl"
               width="450px"

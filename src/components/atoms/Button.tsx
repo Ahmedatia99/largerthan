@@ -13,13 +13,13 @@ export const Button = ({ action, variant = "primary" }: ButtonProps) => {
     primary: "bg-morning",
     second: "bg-white",
     nav: "bg-darkly !text-white",
-    lighting:"bg-morning text-black"
+    lighting: "bg-morning text-black",
   }[variant];
 
   return (
     <button
       className={classNames(
-        "flex items-center justify-center transition-all rounded-md text-darkly py-3 px-8",
+        "flex items-center justify-center transition-all rounded-md text-darkly py-3 px-8 relative z-10",
         variants
       )}
     >

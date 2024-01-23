@@ -3,7 +3,7 @@ import { Button } from "../components/atoms/Button.tsx";
 
 export default function Header() {
   return (
-    <main className="bg-hero-pattern bg-cover w-full h-full text-white">
+    <main className="bg-bg bg-cover w-full h-full text-white">
       <div className="container m-auto py-28 ">
         <div>
           <div>
