@@ -3,6 +3,7 @@ import Header from "../components/Header.jsx";
 import Aboutsection from "../components/Aboutsection.jsx";
 import Whatwedo from "../components/Whatwedo.jsx";
 import ProjectDone from "../components/ProjectDone.jsx";
+import Duration from "../components/Duration.jsx"
 export const Home = () => (
   <>
     <Navbar />
@@ -10,5 +11,6 @@ export const Home = () => (
     <Aboutsection />
     <Whatwedo />
     <ProjectDone />
+    <Duration />
   </>
 );

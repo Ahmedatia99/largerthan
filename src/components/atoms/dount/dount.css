@@ -1,0 +1,47 @@
+/* (A) PIE CHART */
+#donut {
+    /* (A1) CIRCLE */
+    width: 300px; height: 300px;
+    border-radius: 50%;
+  
+    /* (A2) SEGMENTS */
+    background: conic-gradient(
+        #FFF0CA 0deg 36deg,
+        #F9CF64 36deg 72deg,
+        #F38FBF 72deg 90deg,
+        #BEF3C0 90deg 234deg,
+        #AC94F1 234deg 360deg
+    );
+  }
+  
+  /* (B) DONUT "CONVERSION" */
+  /* (B1) SMALLER CIRCLE */
+  #donut::before {
+    content: "";
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background: #000;
+  }
+  
+  /* (B2) "CONVERT PIE TO DONUT" - CENTER SMALLER CIRCLE */
+  #donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* (C) LEGEND */
+  /* (C1) LEGEND CONTAINER */
+  /* (C2) SEGMENTS */
+  #legend div { padding: 0 6px; }
+  #segment1 { background: #FFF0CA;}
+  #segment2 { background: #F9CF64; }
+  #segment3 { background: #F38FBF; }
+  #segment4 { background: #BEF3C0; }
+  #segment5 { background: #AC94F1; }
+#segment1, #segment2, #segment3, #segment4, #segment5{
+    border-radius: 4px;
+    padding-right: 10px;
+    width: 16px;
+    height: 16px;
+}
