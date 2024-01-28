@@ -29,7 +29,8 @@ module.exports = {
         "bg":"url('./images/BG Image.svg')",
         "projects-1": "url('./images/project done-1.svg')",
         "projects-2": "url('./images/project done-2.svg')",
-        "projects-3": "url('./images/project done-3.svg')"
+        "projects-3": "url('./images/project done-3.svg')",
+        "coverchild": "url('./images/coverchild.svg')"
       },
     },
   },

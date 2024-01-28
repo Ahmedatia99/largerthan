@@ -6,9 +6,10 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "second " | "magic";
   action: string;
   displays?: "true" | "false";
+  classname: string;
 }
 
-export const Button = ({ action, variant = "primary" }: ButtonProps) => {
+export const Button = ({ action, classname ,variant = "primary" }: ButtonProps) => {
   const variants = {
     primary: "bg-morning",
     second: "bg-white",
@@ -20,7 +21,7 @@ export const Button = ({ action, variant = "primary" }: ButtonProps) => {
     <button
       className={classNames(
         "flex items-center justify-center transition-all rounded-md text-darkly py-3 px-8 relative z-10",
-        variants
+        variants,classname
       )}
     >
       <span className={classNames("text-md px-2 font-bold")}>{action}</span>
