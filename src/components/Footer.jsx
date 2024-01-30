@@ -2,71 +2,168 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <main>
-      <footer className="bg-white dark:bg-gray-900">
+    <main className="bg-black">
+      <footer className=" container flex justify-center items-center pt-20 ">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
-            <h2 className="text-2xl font-[800] font-roboto text-white">
-              largerthan <span className="font-courgette">i</span>
+            <h2 className="text-2xl font-roboto text-white">
+              <a
+                href="#"
+                className="text-2xl font-roboto text-white no-underline hover:text-white"
+              >
+                largerthan <span className="font-courgette">i</span>
+              </a>
             </h2>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid gap-20 grid-cols-3">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Resources
+                <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  Home
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4"></li>
-                  <li></li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Follow us
-                </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                <ul className="font-medium">
+                  <li className="mb-6">
                     <a
-                      href="https://github.com/themesberg/flowbite"
-                      className="hover:underline "
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
                     >
-                      Github
+                      About us
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Team
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      What we do
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
-                      className="hover:underline"
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
                     >
-                      Discord
+                      connect
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Legal
+                <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  More
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <a href="#" className="hover:underline">
-                      Privacy Policy
+                <ul className="font-medium">
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline  "
+                    >
+                      Project
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Events
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Donate
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
-                      Terms &amp; Conditions
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  Connect
+                </h2>
+                <ul className=" font-medium">
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline  "
+                    >
+                      Facebook
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Instagram
+                    </a>
+                  </li>
+                  <li className="mb-6">
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="hover:border-b hover:border-morning text-white hover:text-morning no-underline "
+                    >
+                      Linked in
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
+            <div>
+              <h2 className="mb-6 text-4xl leading-tight text-white">
+                Subscribe to get latest updates
+              </h2>
+              <div className=" relative flex items-center">
+                <input
+                  type="email"
+                  className="py-3 px-4 w-full outline-none rounded-md bg-transparent border-gray-600 border text-white font-roboto -tracking-tighter focus:border-morning hover:border-morning"
+                  id="Email"
+                  name="Email"
+                  placeholder="Your Email "
+                  autocomplete="off"
+                />
+                <input
+                  className="py-3 px-5 rounded-md bg-white absolute right-0 shadow-white cursor-pointer"
+                  value="Subscribe"
+                  type="submit"
+                />
+              </div>
+            </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span className="text-sm text-white sm:text-center">
               © 2023{" "}
-              <a href="https://flowbite.com/" className="hover:underline">
-                Flowbite™
+              <a
+                href="https://ahmed.atia.dev/"
+                target="_blank"
+                className="hover:text-morning text-morning"
+              >
+                Ahmed Atia
               </a>
               . All Rights Reserved.
             </span>
